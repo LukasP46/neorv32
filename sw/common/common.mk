@@ -332,7 +332,7 @@ gdb: $(APP_ELF)
 # -----------------------------------------------------------------------------
 clean:
 	@rm -rf $(BUILD_DIR)
-	@rm -f $(APP_EXE) $(APP_ELF) $(APP_HEX) $(APP_BIN) $(APP_COE) $(APP_MEM) $(APP_MIF) $(APP_ASM) $(APP_VHD) $(BOOT_VHD)
+	@rm -f $(APP_EXE) $(APP_ELF) $(APP_HEX) $(APP_BIN) $(APP_COE) $(APP_MEM) $(APP_MIF) $(APP_ASM) $(APP_VHD) $(BOOT_VHD) $(BIN_MAIN)
 	@rm -f .gdb_history
 
 clean_all: clean
